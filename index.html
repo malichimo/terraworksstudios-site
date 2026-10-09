@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TerraWorks Studios, Inc. | Makers of TerraMine</title>
+<meta name="description" content="TerraWorks Studios, Inc. is a mobile app studio based in Mansfield, Massachusetts, and the developer of TerraMine, a free location-based mining and property game.">
+<style>
+  :root { --bg:#f6efe2; --ink:#2b2118; --brand:#8b4513; --gold:#c99a12; --card:#fffaf0; --line:#e3d3b4; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#1d1812; --ink:#f1e8d8; --brand:#e0a561; --gold:#ffd24a; --card:#272016; --line:#3a2f20; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; background:var(--bg); color:var(--ink); line-height:1.6; }
+  .wrap { max-width: 860px; margin: 0 auto; padding: 0 16px; }
+  header { padding: 28px 0 8px; border-bottom: 1px solid var(--line); }
+  header .name { font-size: 1.15rem; font-weight: 700; color: var(--brand); letter-spacing: .02em; }
+  .hero { padding: 48px 0 24px; }
+  h1 { font-size: clamp(1.8rem, 5vw, 2.6rem); line-height: 1.15; margin: 0 0 14px; }
+  .lead { font-size: 1.1rem; max-width: 640px; }
+  .btns { display:flex; flex-wrap:wrap; gap:10px; margin-top: 20px; }
+  .btn { display:inline-block; padding: 11px 18px; border-radius: 8px; text-decoration:none; font-weight:600; border:1px solid var(--brand); color:var(--brand); }
+  .btn.primary { background: var(--brand); color:#fff; }
+  section { padding: 22px 0; }
+  h2 { font-size: 1.3rem; margin: 0 0 10px; color: var(--brand); }
+  .card { background: var(--card); border:1px solid var(--line); border-radius: 12px; padding: 18px 20px; }
+  dl { margin:0; display:grid; grid-template-columns: max-content 1fr; gap: 6px 18px; }
+  dt { font-weight:600; }
+  dd { margin:0; }
+  a { color: var(--brand); }
+  footer { margin-top: 28px; padding: 20px 0 40px; border-top: 1px solid var(--line); font-size: .9rem; opacity: .85; }
+  @media (max-width: 520px) { dl { grid-template-columns: 1fr; } dt { margin-top: 8px; } }
+</style>
+</head>
+<body>
+<header><div class="wrap"><div class="name">TerraWorks Studios, Inc.</div></div></header>
+
+<main class="wrap">
+  <div class="hero">
+    <h1>We build location-based games for people who like to explore.</h1>
+    <p class="lead">TerraWorks Studios, Inc. is a mobile app studio based in Mansfield, Massachusetts. Our app, <strong>TerraMine</strong>, turns the real world into a map of properties you can claim, mine, and share with friends.</p>
+    <div class="btns">
+      <a class="btn primary" href="https://terramine.app">Visit TerraMine</a>
+      <a class="btn" href="https://apps.apple.com/app/terramine/id6761272864">App Store</a>
+      <a class="btn" href="https://play.google.com/store/apps/details?id=com.terramine.app">Google Play</a>
+    </div>
+  </div>
+
+  <section>
+    <h2>Our app: TerraMine</h2>
+    <div class="card">
+      <p>TerraMine is a free mobile game for iOS and Android. Players claim real-world grid-square properties, play short mine-themed mini-games, and check into other players' mines to leave messages and photos. The game is supported by advertising.</p>
+      <dl>
+        <dt>Platforms</dt><dd>iOS and Android</dd>
+        <dt>Package name</dt><dd>com.terramine.app</dd>
+        <dt>Website</dt><dd><a href="https://terramine.app">terramine.app</a></dd>
+        <dt>Support</dt><dd><a href="mailto:scott@terramine.app">scott@terramine.app</a></dd>
+      </dl>
+    </div>
+  </section>
+
+  <section>
+    <h2>About the company</h2>
+    <div class="card">
+      <dl>
+        <dt>Company</dt><dd>TerraWorks Studios, Inc.</dd>
+        <dt>Location</dt><dd>Mansfield, Massachusetts, USA</dd>
+        <dt>Founder</dt><dd>Scott Souza</dd>
+        <dt>Contact</dt><dd><a href="mailto:scott@terramine.app">scott@terramine.app</a></dd>
+      </dl>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2026 TerraWorks Studios, Inc. All rights reserved. &middot;
+    <a href="https://terramine.app">TerraMine</a>
+  </footer>
+</main>
+</body>
+</html>
